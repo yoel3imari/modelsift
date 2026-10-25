@@ -3178,7 +3178,7 @@
     "n_layers": 24,
     "n_kv_heads": 16,
     "head_dim": 64,
-    "context_train": 8192,
+    "context_train": 8194,
     "quant": "Q8_0",
     "file_size_bytes": 634553760,
     "sha256": "aa473d51f451a22f0fcf39ba3330c14bed38a385712b1113440f69df4047a173",
@@ -3191,7 +3191,10 @@
       "1024-dim"
     ],
     "output_type": "embedding",
-    "pooling": "cls"
+    "pooling": "cls",
+    "benchmarks": {
+      "mmlu_pro": 28.2
+    }
   },
   {
     "id": "qwen3-embedding-0.6b-q8_0",
